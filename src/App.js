@@ -1,8 +1,15 @@
+import "./assets/styles/global"
+import { GlobalStyle } from "./assets/styles/global";
+import Header from "./components/Header/Header";
+import Section from "./components/Section/index";
+
 function App() {
   return (
-    <div className="App">
-    
-    </div>
+    <>
+      <Header/>
+      <Section/>
+      <GlobalStyle/>
+    </>
   );
 }
 
