@@ -31,6 +31,7 @@ export default function Cards(){
                 <strong>Módulo</strong>
                 <h1>Controle Emocional</h1>
             </CardBox>
+            <div></div>
         </Container>
     )
 }

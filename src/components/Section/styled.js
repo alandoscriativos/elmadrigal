@@ -6,7 +6,7 @@ export const Container = styled.section`
     margin: 18rem auto;
     position: relative;
 
-    div{
+    div:first-child{
         display: block;
         margin: 0 auto;
         width: 500px;
