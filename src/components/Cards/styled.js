@@ -30,22 +30,6 @@ export const CardBox = styled.section`
     transition: 0.5s;
     cursor: pointer;
 
-    
-
-
-   div:first-child {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-
-    img:first-child{
-        width: 150px;
-    }
-    img:last-child{
-        width: 40px;
-    }
-}    
-
    strong{
     margin-top: 0.5rem;
     width: 120px;
