@@ -7,14 +7,16 @@ export const Container = styled.div`
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    position: relative;
 
     div:last-child{
         border: 2px solid var(--laranja);
         height: 104px;
         position: absolute;
-        top: 63%;
+        top: 123%;
         left: 50%;
         transform: translate(-50,-50);
+        margin-bottom: 2rem;
     }
 `
 

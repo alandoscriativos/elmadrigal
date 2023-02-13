@@ -12,18 +12,28 @@ export const Container = styled.section`
         color: var(--laranja);
         text-transform: uppercase;
     }
+
+    main{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 200px;
+        margin: 2rem auto;
+    }
 `
 
-export const Content = styled.div`
+export const Content = styled.section`
     display: flex;
     justify-content: space-between;
     width: 100px;
-    margin: 3rem auto;    
+    margin: 2rem auto;
 
-    div:first-child {
+    div:first-child{   
+
         img{
             display: inline-block;
-            width: 52px;
+            width: 45px;
         }
     }
+
 `
