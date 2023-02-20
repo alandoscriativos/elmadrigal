@@ -42,7 +42,6 @@ export const Content = styled.div`
         font-size: 1.5rem;
         font-weight: 600;
         color: #fff;
-        cursor: pointer;
         box-shadow: 0 0 50px var(--laranja);
         animation: botao-luz 500ms infinite alternate;
 
